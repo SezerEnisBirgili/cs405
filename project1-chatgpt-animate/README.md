@@ -6,7 +6,7 @@ In this project, I implemented a transformation and animation process for a 3D c
 ## Task 1: Using ChatGPT for ModelView Matrix Calculation
 For the first task, I provided ChatGPT with the `transformation-prompt.txt`. From that prompt, ChatGPT generated a `modelViewMatrix` in the form of a `Float32Array`. The output matrix represents the combined transformations (translation, rotation, and scaling) applied to the cube. I then placed the output into the `getChatGPTModelViewMatrix()` function inside `utils.js`. The result was verified by rendering the cube and capturing a screenshot of the generated view:
 
-![Screenshot of Cube Transformation by ChatGPT](cs405_project_chatGPT_image.png)
+![Screenshot of Cube Transformation by ChatGPT](resources/cs405_project_chatGPT_image.png)
 
 The links for both of the chats with ChatGPT are provided at the end of this report in the references.
 
